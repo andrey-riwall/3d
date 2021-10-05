@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.js"],"names":["toggleBurger","document","querySelector","classList","toggle"],"mappings":"AACA,SAASA,eACQC,SAASC,cAAc,WAC/BC,UAAUC,OAAO","file":"main.js","sourcesContent":["// burger\nfunction toggleBurger () {\n  const burger = document.querySelector(\".burger\");\n  burger.classList.toggle('is_active');\n}"]}

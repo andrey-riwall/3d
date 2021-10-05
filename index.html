@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курсы 3D моделирования</title>
+    <link rel="shortcut icon" href="/img/icon/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/main.min.css">
+  </head>
+  <body>
+    <div class="burger">
+      <button class="burger__close" onclick="toggleBurger()"></button>
+      <ul class="burger__list"> 
+        <li class="burger__item"> <a href="#main" onclick="toggleBurger()">Главная</a></li>
+        <li class="burger__item"> <a href="#about-us" onclick="toggleBurger()">О нас</a></li>
+        <li class="burger__item"> <a href="#teachers" onclick="toggleBurger()">Преподаватели</a></li>
+        <li class="burger__item"> <a href="#learn" onclick="toggleBurger()">Курсы</a></li>
+      </ul>
+    </div>
+    <header class="header">
+      <div class="container header__container"> <a class="header__logo" href="https://go.skillbox.ru/" target="_blank">
+          <svg> 
+            <use xlink:href="img/sprite.svg#header--logo"></use>
+          </svg></a>
+        <nav class="header__nav nav"> 
+          <ul class="nav__list"> 
+            <li class="nav__item"><a class="nav__link" href="#main">Главная</a><a class="nav__link" href="#about-us">О нас</a><a class="nav__link" href="#teachers">Преподаватели</a><a class="nav__link" href="#learn">Курсы</a></li>
+          </ul>
+        </nav>
+        <button class="header__burger" onclick="toggleBurger()"><span> </span><span> </span><span> </span></button>
+      </div>
+    </header>
+    <section class="hero" id="main">
+      <div class="container hero__container"> 
+        <h1 class="hero__heading">Курсы 3D моделирования</h1>
+        <p class="hero__desc">Следует отметить, что существующая теория способствует повышению качества благоприятных перспектив. Не следует, однако, забывать.</p>
+        <button class="hero__btn btn">Выбрать курс</button>
+        <div class="hero__bg"><img class="hero__bbg" src="img/hero/big-bg.png"><img class="hero__sbg" src="img/hero/sm-bg.png"></div>
+      </div>
+    </section>
+    <section class="preference" id="about-us">
+      <div class="container preference__container"> 
+        <div class="preference__titleBox"> 
+          <h2 class="preference__heading heading">Преимущества обучения в skillbox</h2>
+          <p class="preference__desc desc">Имеется спорная точка зрения, гласящая примерно следующее: акционеры крупнейших компаний, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут рассмотрены исключительно в разрезе маркетинговых предпосылок.</p>
+        </div>
+        <ul class="row preference__list"> 
+          <li class="col-12 col-lg-4 col-sm-4 preference__item">
+            <svg> 
+              <use xlink:href="img/sprite.svg#preference--eye"></use>
+            </svg>
+            <p class="preference__text">Результат вашего обучения является самым важным для нас приоритетом</p>
+          </li>
+          <li class="col-12 col-lg-4 col-sm-4 preference__item">
+            <svg> 
+              <use xlink:href="img/sprite.svg#preference--fingers"></use>
+            </svg>
+            <p class="preference__text">Лично познакомитесь с одним из своих будущих преподавателей</p>
+          </li>
+          <li class="col-12 col-lg-4 col-sm-4 preference__item">
+            <svg> 
+              <use xlink:href="img/sprite.svg#preference--voice"></use>
+            </svg>
+            <p class="preference__text">Значимость этих проблем очевидна, поэтому стоит всегда быть внимательным</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="teachers" id="teachers">
+      <div class="container teachers__container"> 
+        <h2 class="teachers__heading heading">Преподаватели курсов</h2>
+        <ul class="row teachers__list">
+          <li class="col-md-3 col-sm-6 col-12 teachers__item"><img class="teachers__img" src="img/teachers/1.png" alt="Преподаватель">
+            <h3 class="teachers__low-heading">Владимир Петров</h3>
+            <p class="teachers__low-desc">Лишь непосредственные участники технического прогресса неоднозначны и будут в равной степени предоставлены сами себе.</p>
+          </li>
+          <li class="col-md-3 col-sm-6 col-12 teachers__item"><img class="teachers__img" src="img/teachers/2.png" alt="Преподаватель">
+            <h3 class="teachers__low-heading">Денис Сергеев</h3>
+            <p class="teachers__low-desc">Безусловно, разбавленное изрядной долей эмпатии, рациональное мышление.</p>
+          </li>
+          <li class="col-md-3 col-sm-6 col-12 teachers__item"><img class="teachers__img" src="img/teachers/3.png" alt="Преподаватель">
+            <h3 class="teachers__low-heading">Михаил Андреев</h3>
+            <p class="teachers__low-desc">Ясность нашей позиции очевидна: высокое качество позиционных исследований напрямую зависит от вывода.</p>
+          </li>
+          <li class="col-md-3 col-sm-6 col-12 teachers__item"><img class="teachers__img" src="img/teachers/4.png" alt="Преподаватель">
+            <h3 class="teachers__low-heading">Константин Дмитриев</h3>
+            <p class="teachers__low-desc">Мы вынуждены отталкиваться от того, что существующая теория, в своём классическом представлении.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="learn" id="learn">
+      <div class="container learn__container"> 
+        <h2 class="learn__heading heading">Курсы</h2>
+        <ul class="row learn__list">
+          <li class="col-12 col-sm-6 learn__item">
+            <div class="learn__box"><img class="learn__img" src="img/learn/card-bg-1.png" alt="Картинка">
+              <div class="learn__time"> 
+                <svg> 
+                  <use xlink:href="img/sprite.svg#learn--clock"></use>
+                </svg><span>60 часов</span>
+              </div>
+              <h3 class="learn__low-heading">Cinema 4d для начинающих</h3>
+              <p class="learn__low-desc">Учитывая ключевые сценарии поведения, базовый вектор развития напрямую зависит от системы массового участия. Следует отметить, что сложившаяся структура организации напрямую зависит от стандартных подходов.</p>
+              <button class="learn__btn btn">Подробнее</button>
+            </div>
+          </li>
+          <li class="col-12 col-sm-6 learn__item">
+            <div class="learn__box"><img class="learn__img" src="img/learn/card-bg-2.png" alt="Картинка">
+              <div class="learn__time"> 
+                <svg> 
+                  <use xlink:href="img/sprite.svg#learn--clock"></use>
+                </svg><span>40 часов</span>
+              </div>
+              <h3 class="learn__low-heading">Blender: продвинутый уровень</h3>
+              <p class="learn__low-desc">Но убеждённость некоторых оппонентов в значительной степени обусловливает важность форм воздействия. Внезапно, тщательные исследования конкурентов представлены.</p>
+              <button class="learn__btn btn">Подробнее</button>
+            </div>
+          </li>
+        </ul>
+        <ul class="row learn__list">
+          <li class="col-12 col-sm-6 learn__item">
+            <div class="learn__box"><img class="learn__img" src="img/learn/card-bg-3.png" alt="Картинка">
+              <div class="learn__time"> 
+                <svg> 
+                  <use xlink:href="img/sprite.svg#learn--clock"></use>
+                </svg><span>40 часов</span>
+              </div>
+              <h3 class="learn__low-heading">Визуализация в 3ds Max</h3>
+              <p class="learn__low-desc">Повседневная практика показывает, что сложившаяся структура организации обеспечивает актуальность кластеризации усилий.</p>
+              <button class="learn__btn btn">Подробнее</button>
+            </div>
+          </li>
+          <li class="col-12 col-sm-6 learn__item">
+            <div class="learn__box"><img class="learn__img" src="img/learn/card-bg-4.png" alt="Картинка">
+              <div class="learn__time"> 
+                <svg> 
+                  <use xlink:href="img/sprite.svg#learn--clock"></use>
+                </svg><span>80 часов</span>
+              </div>
+              <h3 class="learn__low-heading">Скульптинг в ZBrush</h3>
+              <p class="learn__low-desc">Разнообразный и богатый опыт говорит нам, что граница обучения кадров требует определения и уточнения прогресса профессионального сообщества! В частности, постоянный количественный рост и сфера нашей активности.</p>
+              <button class="learn__btn btn">Подробнее</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer class="footer"> 
+      <div class="container footer__container">
+        <ul class="footer__list"> 
+          <li class="footer__item"><a href="#"> 
+              <svg> 
+                <use xlink:href="img/sprite.svg#footer--fb"></use>
+              </svg></a></li>
+          <li class="footer__item"><a href="#"> 
+              <svg> 
+                <use xlink:href="img/sprite.svg#footer--tw"></use>
+              </svg></a></li>
+          <li class="footer__item"><a href="#"> 
+              <svg> 
+                <use xlink:href="img/sprite.svg#footer--isnt"></use>
+              </svg></a></li>
+          <li class="footer__item"><a href="#"> 
+              <svg> 
+                <use xlink:href="img/sprite.svg#footer--yt"></use>
+              </svg></a></li>
+        </ul>
+      </div>
+      <div class="footer__skillbox"><span>SKILLBOX <strong>®</strong> 2021</span></div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
